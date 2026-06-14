@@ -10,89 +10,84 @@
   "templateId": "güzellik",
   "content": {
     "hero": {
-      "title": "Doğal Güzelliğin İstanbul'daki Adresi",
-      "subtitle": "Sühem Beauty ile cilt bakımından epilasyona, kaliteli hizmet ve profesyonel dokunuşla yenilenin.",
-      "cta": "Randevu Al"
+      "title": "İstanbul'un Kalbinde Güzellik",
+      "subtitle": "Sühem Beauty ile cildinize ve ruhunuza iyi bakın. Profesyonel ekibimiz, son teknoloji ekipmanlar ve kişiye özel çözümlerle güzelliğinizi keşfedin.",
+      "cta": "Hemen Randevu Al"
     },
     "services": [
       {
         "title": "Cilt Bakımı",
-        "description": "Özel formüllerle cildinizi arındırın, canlandırın ve ışıltısını geri kazandırın.",
+        "description": "Derinlemesine temizlik, nemlendirme ve yenileme tedavileri ile cildinize ışıltısını geri kazandırıyoruz.",
         "icon": "Sparkles"
       },
       {
         "title": "Lazer Epilasyon",
-        "description": "En son teknoloji cihazlarla kalıcı ve konforlu epilasyon deneyimi.",
+        "description": "Uzman kadromuz ve medikal cihazlarımızla kalıcı, ağrısız ve güvenli epilasyon deneyimi.",
         "icon": "Zap"
       },
       {
-        "title": "Manikür & Pedikür",
-        "description": "El ve ayak bakımında hijyenik ortamda profesyonel tasarımlar.",
-        "icon": "Hand"
+        "title": "Masaj Terapisi",
+        "description": "Yorgun kaslarınızı rahatlatacak aromaterapi, lenf drenajı ve sıcak taş masajı seçenekleri.",
+        "icon": "Heart"
       },
       {
-        "title": "Kaş & Kirpik Lifting",
-        "description": "Doğal görünümlü kaldırma ve şekillendirme ile bakışlarınızı güçlendirin.",
-        "icon": "Eye"
-      },
-      {
-        "title": "Makyaj & Geçici Dövme",
-        "description": "Özel günleriniz için kalıcı makyaj ve trend geçici dövme uygulamaları.",
+        "title": "Makyaj & Kaş Tasarımı",
+        "description": "Özel günlerinizde veya günlük kullanımda doğal ve profesyonel makyaj uygulamaları.",
         "icon": "Brush"
       }
     ],
     "about": {
-      "description": "Sühem Beauty, İstanbul’un kalbinde doğal güzellik anlayışını benimseyerek kadınlara özel bakım hizmetleri sunuyor. Kurulduğumuz günden bu yana, her müşterimizin cilt tipine ve ihtiyacına uygun kişiye özel çözümler geliştiriyoruz. Profesyonel ekibimiz, sektördeki yenilikleri yakından takip ederek hijyenik ve modern bir ortamda hizmet vermektedir. Amacımız, sadece dış görünüşü değil, iç huzuru da beslemektir.",
-      "mission": "Her kadının kendini özel hissetmesini sağlayacak kaliteli, güvenli ve doğal güzellik hizmetlerini erişilebilir kılmak.",
-      "vision": "Türkiye'de ve dünyada doğal güzellik denilince akla gelen ilk markalardan biri olmak, İstanbul’dan başlayan bu yolculuğu küresel bir güzellik hareketine dönüştürmek."
+      "description": "Sühem Beauty, İstanbul’un dinamik atmosferinde güzellik ve bakım ihtiyaçlarınıza yanıt vermek üzere kurulmuş modern bir güzellik merkezidir. Alanında uzman ekibimiz, her müşterimizin cilt tipine ve beklentilerine özel tedavi planları hazırlayarak en kaliteli hizmeti sunmayı hedefler. Hijyen, güven ve müşteri memnuniyeti önceliğimizdir. Son teknoloji cihazlar ve doğal içerikli ürünlerle donatılmış kliniğimizde; yüz bakımından epilasyona, masajdan makyaja kadar geniş bir hizmet yelpazesi bulunmaktadır. Siz de Sühem Beauty farkını deneyimleyin, kendinize hak ettiğiniz bakımı yapın.",
+      "mission": "Doğal güzelliğinizi en iyi şekilde ortaya çıkarmak, cildinize ve bedeninize özenle yaklaşarak kalıcı memnuniyet sağlamak.",
+      "vision": "İstanbul'da sektörünün öncü ve güvenilir güzellik merkezi olmak, her geçen gün gelişen teknoloji ve trendlerle müşterilerimize en iyi deneyimi sunmak."
     },
     "why_us": [
       {
-        "title": "Özel Formüller, Doğal İçerikler",
-        "description": "Tüm ürünlerimizde kimyasal içermeyen, cilt dostu ve doğal bileşenler kullanıyoruz.",
-        "icon": "Leaf"
-      },
-      {
-        "title": "Uzman ve Deneyimli Ekip",
-        "description": "Her hizmetimiz alanında sertifikalı, düzenli eğitimlerle kendini güncelleyen profesyoneller tarafından uygulanır.",
+        "title": "Deneyimli ve Uzman Ekip",
+        "description": "Her alanda sertifikalı, sürekli eğitim alan terapist ve uzmanlarımızla hizmetinizdeyiz.",
         "icon": "Users"
       },
       {
-        "title": "Hijyen Odaklı Çalışma",
-        "description": "Sterilizasyon ve temizlik standartlarına titizlikle uyarak güvenli bir ortam sağlıyoruz.",
+        "title": "Hijyen ve Güvenlik Önceliği",
+        "description": "Tüm ekipmanlarımız tek kullanımlık veya sterilize edilmiş olup, hijyen standartlarımız en üst düzeydedir.",
         "icon": "Shield"
       },
       {
-        "title": "Kişiye Özel Danışmanlık",
-        "description": "Randevu öncesi ücretsiz danışmanlık ile size en uygun bakım planını belirliyoruz.",
-        "icon": "Heart"
+        "title": "Kişiye Özel Çözümler",
+        "description": "Cilt analizi ve danışmanlık ile size özel bakım rutini ve tedavi planı oluşturuyoruz.",
+        "icon": "UserCheck"
+      },
+      {
+        "title": "Uygun Fiyat ve Kalite",
+        "description": "Lokasyon avantajımız ve etkin yönetimimiz sayesinde kaliteli hizmeti rekabetçi fiyatlarla sunuyoruz.",
+        "icon": "DollarSign"
       }
     ],
     "testimonials": [
       {
         "name": "Ayşe K.",
-        "text": "Cilt bakımı için gittim, hem çok profesyonel hem de çok ilgililerdi. Cildim yıllardır bu kadar iyi görünmemişti. Kesinlikle tavsiye ederim!",
+        "text": "Cilt bakımı için geldim ve beklentimin çok üzerinde bir deneyim yaşadım. Cildim resmen yenilendi. Çok profesyonel bir ekip, kesinlikle tavsiye ediyorum.",
         "rating": 5
       },
       {
-        "name": "Merve T.",
-        "text": "Lazer epilasyon için tercih ettim, üç seans sonunda çok memnunum. Ağrısız ve hızlı bir işlemdi, teşekkürler Sühem Beauty.",
+        "name": "Zeynep T.",
+        "text": "Lazer epilasyon için tercih ettim ve sonuçlardan çok memnunum. Acısız ve hızlı bir işlemdi. Sühem Beauty sayesinde yaz kendime daha çok güveniyorum.",
         "rating": 5
       },
       {
         "name": "Elif D.",
-        "text": "Kaş lifting için gittim, doğal ve harika bir sonuç aldım. İstanbul'daki en iyi güzellik merkezlerinden biri.",
+        "text": "Masaj terapisi için uğradım, yorgunluğumu unuttum. Ortam o kadar huzurlu ki kendinizi şımartılmış hissediyorsunuz. Kesinlikle tekrar geleceğim.",
         "rating": 5
       }
     ],
     "contact": {
-      "heading": "Güzelliğinize Zaman Ayırın",
-      "description": "Sühem Beauty ile randevunuzu hemen oluşturun, İstanbul'da doğal güzelliğin tadını çıkarın. Uzman ekibimiz sizi bekliyor.",
-      "cta": "Hemen Randevu Al"
+      "heading": "Bize Ulaşın",
+      "description": "Güzellik yolculuğunuza başlamak için randevu almak veya merak ettiğiniz konuları sormak için bize ulaşın. İstanbul'un merkezinde sizi bekliyoruz.",
+      "cta": "Mesaj Gönder"
     },
     "footer": {
-      "description": "Sühem Beauty, İstanbul'da doğal güzellik ve bakım alanında güvenilir adresiniz. Her kadının kendini değerli hissetmesi için yanınızdayız."
+      "description": "Sühem Beauty, İstanbul'da güzelliğinize değer katan profesyonel bir güzellik merkezidir. Cilt bakımı, lazer epilasyon, masaj ve makyaj alanlarında uzman kadrosuyla hizmet vermektedir."
     }
   },
-  "generatedAt": "2026-06-14T20:28:40.555Z"
+  "generatedAt": "2026-06-14T21:42:13.119Z"
 }
