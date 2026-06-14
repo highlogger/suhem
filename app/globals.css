@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+/* ─── Tailwind v4 Theme (CSS-first config) ───────────────────── */
+@theme {
+  /* Colors */
+  --color-black: #0f0f0f;
+  --color-white: #ffffff;
+  --color-gold: #d4af37;
+  --color-gold-light: #e8c84a;
+  --color-gold-dark: #b8952e;
+  --color-surface: #141414;
+  --color-surface-2: #1a1a1a;
+
+  /* Fonts */
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: Inter, system-ui, sans-serif;
+
+  /* Max widths */
+  --width-8xl: 90rem;
+}
+
+/* ─── CSS Custom Properties ─────────────────────────────────── */
+:root {
+  --gold: #d4af37;
+  --gold-light: #e8c84a;
+  --gold-dark: #b8952e;
+  --gold-muted: rgba(212, 175, 55, 0.12);
+  --border-gold: rgba(212, 175, 55, 0.2);
+}
+
+/* ─── Base ───────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #ffffff;
+  font-family: Inter, system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* ─── Custom Scrollbar ───────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #0f0f0f; }
+::-webkit-scrollbar-thumb { background: #d4af37; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #e8c84a; }
+
+/* ─── Utilities ──────────────────────────────────────────────── */
+@layer utilities {
+
+  /* Typography */
+  .font-serif { font-family: "Cormorant Garamond", Georgia, serif; }
+  .font-sans  { font-family: Inter, system-ui, sans-serif; }
+
+  /* Gold gradient text */
+  .gradient-gold-text {
+    background: linear-gradient(135deg, #d4af37 0%, #e8c84a 50%, #b8952e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gold-glow-text {
+    text-shadow: 0 0 30px rgba(212, 175, 55, 0.45);
+  }
+
+  /* Glass card */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(212, 175, 55, 0.15);
+  }
+
+  /* Gold border */
+  .gold-border {
+    border: 1px solid rgba(212, 175, 55, 0.25);
+  }
+
+  /* Gold glow */
+  .gold-glow {
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.25), 0 0 60px rgba(212, 175, 55, 0.08);
+  }
+
+  /* Gold divider */
+  .gold-divider {
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, #d4af37, #e8c84a);
+    margin: 0 auto;
+  }
+
+  /* Ornament lines */
+  .ornament {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .ornament::before,
+  .ornament::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.55), transparent);
+    max-width: 80px;
+  }
+
+  /* Premium card hover */
+  .premium-card {
+    transition: transform 0.4s cubic-bezier(0.4,0,0.2,1),
+                box-shadow 0.4s cubic-bezier(0.4,0,0.2,1),
+                border-color 0.4s ease;
+  }
+  .premium-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 24px 60px rgba(212, 175, 55, 0.15), 0 8px 24px rgba(0,0,0,0.5);
+    border-color: rgba(212, 175, 55, 0.4) !important;
+  }
+
+  /* Gold filled button */
+  .btn-gold {
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #d4af37, #e8c84a, #b8952e);
+    color: #0f0f0f;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .btn-gold::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    left: -100%;
+    width: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.25), transparent);
+    transition: left 0.5s ease;
+  }
+  .btn-gold:hover::before { left: 100%; }
+  .btn-gold:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(212, 175, 55, 0.55);
+  }
+
+  /* Ghost border button */
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(212, 175, 55, 0.5);
+    color: #d4af37;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .btn-ghost:hover {
+    background: rgba(212, 175, 55, 0.1);
+    border-color: #d4af37;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.2);
+    color: #d4af37;
+  }
+
+  /* Section label */
+  .section-label {
+    font-family: Inter, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: #d4af37;
+  }
+
+  /* Max-width utilities */
+  .container-site {
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  @media (min-width: 1024px) {
+    .container-site {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+  }
+
+  /* Tailwind v4 compat: max-w-8xl */
+  .max-w-8xl {
+    max-width: 90rem;
+  }
+
+  /* Masonry gallery */
+  .masonry-grid {
+    columns: 3;
+    column-gap: 14px;
+  }
+  @media (max-width: 1024px) { .masonry-grid { columns: 2; } }
+  @media (max-width: 600px)  { .masonry-grid { columns: 1; } }
+
+  .masonry-item {
+    break-inside: avoid;
+    margin-bottom: 14px;
+  }
+
+  /* Map dark filter */
+  .map-dark {
+    filter: grayscale(100%) invert(90%) contrast(80%) brightness(0.85);
+  }
+}
+
+/* ─── Animations ─────────────────────────────────────────────── */
+@keyframes waPulse {
+  0%   { box-shadow: 0 0 0 0   rgba(37, 211, 102, 0.5); }
+  70%  { box-shadow: 0 0 0 16px rgba(37, 211, 102, 0);   }
+  100% { box-shadow: 0 0 0 0   rgba(37, 211, 102, 0);   }
+}
+.wa-pulse { animation: waPulse 2.5s infinite; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0);   }
+  50%       { transform: translateY(-8px); }
+}
+.animate-float { animation: float 3s ease-in-out infinite; }

@@ -1,0 +1,98 @@
+{
+  "companyName": "Sühem Beauty",
+  "companyPhone": "05375047498",
+  "companyEmail": "",
+  "companyWebsite": "yok",
+  "companyInstagram": "",
+  "companyCity": "İstanbul",
+  "companyAddress": "",
+  "sector": "Guzellik Merkezi",
+  "templateId": "güzellik",
+  "content": {
+    "hero": {
+      "title": "Doğal Güzelliğin İstanbul'daki Adresi",
+      "subtitle": "Sühem Beauty ile cilt bakımından epilasyona, kaliteli hizmet ve profesyonel dokunuşla yenilenin.",
+      "cta": "Randevu Al"
+    },
+    "services": [
+      {
+        "title": "Cilt Bakımı",
+        "description": "Özel formüllerle cildinizi arındırın, canlandırın ve ışıltısını geri kazandırın.",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Lazer Epilasyon",
+        "description": "En son teknoloji cihazlarla kalıcı ve konforlu epilasyon deneyimi.",
+        "icon": "Zap"
+      },
+      {
+        "title": "Manikür & Pedikür",
+        "description": "El ve ayak bakımında hijyenik ortamda profesyonel tasarımlar.",
+        "icon": "Hand"
+      },
+      {
+        "title": "Kaş & Kirpik Lifting",
+        "description": "Doğal görünümlü kaldırma ve şekillendirme ile bakışlarınızı güçlendirin.",
+        "icon": "Eye"
+      },
+      {
+        "title": "Makyaj & Geçici Dövme",
+        "description": "Özel günleriniz için kalıcı makyaj ve trend geçici dövme uygulamaları.",
+        "icon": "Brush"
+      }
+    ],
+    "about": {
+      "description": "Sühem Beauty, İstanbul’un kalbinde doğal güzellik anlayışını benimseyerek kadınlara özel bakım hizmetleri sunuyor. Kurulduğumuz günden bu yana, her müşterimizin cilt tipine ve ihtiyacına uygun kişiye özel çözümler geliştiriyoruz. Profesyonel ekibimiz, sektördeki yenilikleri yakından takip ederek hijyenik ve modern bir ortamda hizmet vermektedir. Amacımız, sadece dış görünüşü değil, iç huzuru da beslemektir.",
+      "mission": "Her kadının kendini özel hissetmesini sağlayacak kaliteli, güvenli ve doğal güzellik hizmetlerini erişilebilir kılmak.",
+      "vision": "Türkiye'de ve dünyada doğal güzellik denilince akla gelen ilk markalardan biri olmak, İstanbul’dan başlayan bu yolculuğu küresel bir güzellik hareketine dönüştürmek."
+    },
+    "why_us": [
+      {
+        "title": "Özel Formüller, Doğal İçerikler",
+        "description": "Tüm ürünlerimizde kimyasal içermeyen, cilt dostu ve doğal bileşenler kullanıyoruz.",
+        "icon": "Leaf"
+      },
+      {
+        "title": "Uzman ve Deneyimli Ekip",
+        "description": "Her hizmetimiz alanında sertifikalı, düzenli eğitimlerle kendini güncelleyen profesyoneller tarafından uygulanır.",
+        "icon": "Users"
+      },
+      {
+        "title": "Hijyen Odaklı Çalışma",
+        "description": "Sterilizasyon ve temizlik standartlarına titizlikle uyarak güvenli bir ortam sağlıyoruz.",
+        "icon": "Shield"
+      },
+      {
+        "title": "Kişiye Özel Danışmanlık",
+        "description": "Randevu öncesi ücretsiz danışmanlık ile size en uygun bakım planını belirliyoruz.",
+        "icon": "Heart"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Ayşe K.",
+        "text": "Cilt bakımı için gittim, hem çok profesyonel hem de çok ilgililerdi. Cildim yıllardır bu kadar iyi görünmemişti. Kesinlikle tavsiye ederim!",
+        "rating": 5
+      },
+      {
+        "name": "Merve T.",
+        "text": "Lazer epilasyon için tercih ettim, üç seans sonunda çok memnunum. Ağrısız ve hızlı bir işlemdi, teşekkürler Sühem Beauty.",
+        "rating": 5
+      },
+      {
+        "name": "Elif D.",
+        "text": "Kaş lifting için gittim, doğal ve harika bir sonuç aldım. İstanbul'daki en iyi güzellik merkezlerinden biri.",
+        "rating": 5
+      }
+    ],
+    "contact": {
+      "heading": "Güzelliğinize Zaman Ayırın",
+      "description": "Sühem Beauty ile randevunuzu hemen oluşturun, İstanbul'da doğal güzelliğin tadını çıkarın. Uzman ekibimiz sizi bekliyor.",
+      "cta": "Hemen Randevu Al"
+    },
+    "footer": {
+      "description": "Sühem Beauty, İstanbul'da doğal güzellik ve bakım alanında güvenilir adresiniz. Her kadının kendini değerli hissetmesi için yanınızdayız."
+    }
+  },
+  "generatedAt": "2026-06-14T20:28:40.555Z"
+}
